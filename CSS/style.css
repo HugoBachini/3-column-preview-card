@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 310px 310px 310px;
+
+}
+
+.col-left{
+    background-color: hsl(31, 77%, 52%);
+
+    border-radius: 10px 0 0 10px;
+}
+
+.col-middle{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.col-right{
+    background-color: hsl(179, 100%, 13%);
+
+    border-radius: 0 10px 10px 0;
+}
+
+[class*="col-"]{
+    padding: 50px;
+}
+
+[class*="col-"] h1{
+    color: hsl(0, 0%, 95%);
+
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+
+    margin: 30px 0;
+}
+
+[class*="col-"] p{
+    color: hsla(0, 0%, 100%, 0.75);
+
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+
+    margin-bottom: 80px;
+}
+
+.col-left input{
+    color: hsl(31, 77%, 52%);
+}
+
+.col-middle input{
+    color: hsl(184, 100%, 22%);
+}
+
+.col-right input{
+    color: hsl(179, 100%, 13%);
+}
+
+input{
+    background-color: hsl(0, 0%, 95%);
+    
+    width: 145px;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+input:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    outline: solid 3px hsl(0, 0%, 95%);;
+    color: hsl(0, 0%, 95%);;
+}
+
+.attribution{
+    font-family: 'Lexend Deca', sans-serif;;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a{ 
+    color: hsl(228, 45%, 44%); 
+}

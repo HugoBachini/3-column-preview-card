@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/3column-preview-card-component-soluo-responsiva-com-flex-e-grid-ayEHJ71Ohz)
-- Live Site URL: (https://hugobachini.github.io/mentor_3-column_preview_card/)
+- Solution URL: [https://www.frontendmentor.io/solutions/3column-preview-card-component-soluo-responsiva-com-flex-e-grid-ayEHJ71Ohz]
+- Live Site URL: [https://hugobachini.github.io/mentor_3-column_preview_card/]
 
 ## My process
 
